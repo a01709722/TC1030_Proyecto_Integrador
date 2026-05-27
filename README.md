@@ -1,2 +1,2 @@
 # TC1030_Proyecto_Integrador
-Este proyecto modela la operación básica de un hospital que administra pacientes, doctores y pisos especializados. El hospital cuenta con tres pisos: Emergencia, Observación y Consulta, cada uno con 5 cuartos y un doctor asignado. Cuando un paciente ingresa al hospital, el sistema lo asigna automáticamente al piso correcto según su estatus médico. Cada piso maneja al paciente de forma distinta: emergencia establece un nivel de alerta, observación registra horas de estancia, y consulta asigna un turno de atención. 
+
