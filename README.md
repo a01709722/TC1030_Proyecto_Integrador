@@ -8,8 +8,6 @@ La clase PersonalHospital es abstracta y no puede instanciarse directamente: sol
 EL programa crashea si el usuario ingresa una letra o un carácter no numérico cuando el programa solicita un número, el flujo de entrada queda en un estado inválido y el programa puede comportarse de forma impredecible o terminar abruptamente. Si el usuario ingresa una opción que no existe en el menú, el programa termina. El sistema no contempla persistencia de datos, por lo que toda la información se pierde al cerrar el programa. No es posible agregar ni pisos ni cuartos en tiempo de ejecución. El sistema no valida duplicados, por lo que es posible registrar dos doctores con la misma cédula o dos pacientes con los mismos datos sin que el programa lo detecte. La asignación de cuartos es automática y no permite elegir piso o cuarto específico. No es posible editar la información de un paciente o miembro del personal una vez registrado: para corregir datos habría que elkiminar el registro y volver a ingresarlo. 
 # Cómo Compilarlo 
 Desde la terminal, navega a la carpeta del proyecto y ejecuta:
-g++ -o hospital main.cpp
-Luego corre el programa con: 
-./hospital
+g++ -o hospital main.cpp. Luego corre el programa con: ./hospital
 
 
